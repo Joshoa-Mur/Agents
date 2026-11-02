@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-21",
+  "source": "fresh",
+  "question": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?",
+  "answer": "Gavin Snider",
+  "evidence": "June – Artist Gavin Snider accuses fellow artist and social media star Devon Rodriguez of presenting images of paintings of triumphant New York Knicks fans outside Madison Square Garden commissioned by the team from him to celebrate their 2026 NBA Championship, victory as his own. Rodriguez summarily removes his social media post introducing the work as his own.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I will look for relevant information regarding the artist who accused Devon Rodriguez in June 2026.",
+ "correct": false,
+ "cost": 4.169999999970031e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Сегодня 2 ноября 2026 года. События 2025 и 2026 годов уже произошли, информация о них есть в Википедии: не отказывайся отвечать, а ищи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Если вступление статьи не содержит ответа, читай статью через page_find; факты о событиях часто лежат в обзорных статьях вроде '2026 in Ukraine' или в таблицах страницы турнира. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса; имена и названия пиши в именительном падеже, как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will look for relevant information regarding the artist who accused Devon Rodriguez in June 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

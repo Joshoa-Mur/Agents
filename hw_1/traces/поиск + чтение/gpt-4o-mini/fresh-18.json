@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-18",
+  "source": "fresh",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "answer": "13 July",
+  "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "November 25, 2021",
+  "agent_ok": false
+ },
+ "answer": "The date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls was in July 2026. FINAL: July 2026",
+ "correct": false,
+ "cost": 0.00041970000000013385,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Сегодня 2 ноября 2026 года. События 2025 и 2026 годов уже произошли, информация о них есть в Википедии: не отказывайся отвечать, а ищи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Если вступление статьи не содержит ответа, читай статью через page_find; факты о событиях часто лежат в обзорных статьях вроде '2026 in Ukraine' или в таблицах страницы турнира. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса; имена и названия пиши в именительном падеже, как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rkXnlWJ1LZATd1aHa7CRCiym",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Munich court imprisoned Iraqi couple enslaving raping Yazidi girls\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rkXnlWJ1LZATd1aHa7CRCiym",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Is | другие статьи: 2026 Munich Yazidi genocide trial, 2026 in Germany"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fhjFSrE9pU2rSOztzsyPOUXq",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Yazidi genocide\",\"keywords\":[\"Munich\",\"court\",\"Iraqi couple\",\"enslaving\",\"raping\",\"Yazidi girls\"],\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fhjFSrE9pU2rSOztzsyPOUXq",
+   "content": "[Yazidi genocide] найдено строк: 1\nOn 20 March Essid was pronounced guilty of genocide and crimes against humanity for having enslaved, tortured and inflicted \"serious bodily or mental harm constituting genocide\" against Yazidi women and children between 2014 and 2016.\nIn July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple, identified as Twana H.S. and Asia R.A., of genocide, crimes against humanity, and war crimes over the enslavement, torture, and sexual abuse of two Yazidi girls between 2015 and 2017. Twana H.S. was sentenced to life imprisonment, and Asia R.A. was given a juvenile sentence of nine years and six months.\nResettlement of Yazidi refugees\nUnited States Senators Amy Klobuchar and Lindsey Graham have called on United States President Joe Biden to help resettle Yazidi survivors of the Islamic State campaign of 2014–2017."
+  },
+  {
+   "role": "assistant",
+   "content": "The date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls was in July 2026. FINAL: July 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

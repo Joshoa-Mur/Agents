@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На основе найденной информации о конфликте Афганистан-Пакистан:\n\nСогласно статье \"2026 Afghanistan–Pakistan war\", конфликт начался с пакистанских авиаударов по предполагаемым лагерям ПТП (пакистанских талибов) и ISKP в восточном Афганистане в феврале 2026 года и эскалировал в течение недели. \n\nМинистр обороны Пакистана Хавайя Асиф объявил об \"открытой войне\" между двумя странами, которая велась под кодовым названием \"Операция Газаб иль-Хак\".\n\nХотя точная дата февраля 26, 2026 года не была явно указана в результатах поиска, информация указывает на то, что именно это объявление \"открытой войны\" было главным пакистанским официальным заявлением в конце первой недели февраля 2026 года.\n\nFINAL: Пакистан объявил об \"открытой войне\" с Афганистаном",
+ "correct": false,
+ "cost": 0.05475999999999903,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Сегодня 2 ноября 2026 года. События 2025 и 2026 годов уже произошли, информация о них есть в Википедии: не отказывайся отвечать, а ищи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Если вступление статьи не содержит ответа, читай статью через page_find; факты о событиях часто лежат в обзорных статьях вроде '2026 in Ukraine' или в таблицах страницы турнира. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса; имена и названия пиши в именительном падеже, как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about events in the Afghanistan-Pakistan war on February 26, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01MfnamTY4mBfi82UhCYaWNW",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Afghanistan Pakistan war February 26 2026\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01MfnamTY4mBfi82UhCYaWNW",
+   "content": "[2026 Afghanistan–Pakistan war] Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq. The war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan. | другие статьи: 2026, 2026 in Pakistan"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me get more details from this article to find the specific declaration on February 26, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01WQnoKc6grNX5Tq6o9AL7ca",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 Afghanistan–Pakistan war\", \"keywords\": [\"February 26\",\"declared\",\"Pakistan\"], \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WQnoKc6grNX5Tq6o9AL7ca",
+   "content": "[2026 Afghanistan–Pakistan war] найдено строк: 1\nAfghan United Front: Sami Sadat, a former Afghan army commander, described the agreement between tribal elders from eastern Afghanistan and Pakistan's Chitral region as a humiliation, saying that Afghans had been reduced to seeking security for their villages and districts from the Pakistani military. He called the situation a historic disgrace brought about by the Taliban.\nPakistan: Pakistan's Minister of Defence Khawaja Asif declared an \"open war\" between the two countries.\nInternational\nNations"
+  },
+  {
+   "role": "assistant",
+   "content": "The search found that Pakistan's Defence Minister Khawaja Asif declared an \"open war\", but I need to find the specific date. Let me search for more specific information about February 26, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XzyM6MN9mrihcDumjJMgza",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 Afghanistan–Pakistan war\", \"keywords\": [\"February 26\",\"open war\",\"Khawaja Asif\"], \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XzyM6MN9mrihcDumjJMgza",
+   "content": "[2026 Afghanistan–Pakistan war] найдено строк: 3\nSince February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan.\nThe conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq.\nThe war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan.\nTwo ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan.\n…\nIn response to the Taliban's operation, Pakistan carried out air and ground strikes against Afghan Taliban positions in Kabul, Kandahar, Paktia, and Nangarhar.\nFaisal Karim Kundi, governor of Khyber Pakhtunkhwa, stated that the Afghan Taliban started the war and Pakistan will be the one to end it, while Khawaja Asif, Pakistan's defence minister, announced the start of an \"open war\" between the two countries.\nPakistani officials stated that around 133 Taliban fighters were killed and more than 200 were injured during the clashes and subsequent operation.\nThey further added that the airstrikes destroyed two corps headquarters, three brigade headquarters, two ammunition depots, one logistics base, three battalion headquarters, two sector headquarters, and more than 80 tanks, artillery pieces, and APCs (armoured personnel carriers).\n…\nAfghan United Front: Sami Sadat"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the information found, the article states that the conflict escalated \"within a week\" into what Pakistan's defence minister called an \"open war.\" Since the conflict began in February 2026 and escalated within a week, and the Defence Minister Khawaja Asif's declaration of an \"open war\" is mentioned, this appears to be the key declaration. However, let me search more specifically for what happened on February 26, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015pTf8rGYvDgaL3RE6ojgg6",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Pakistan declaration February 26 2026 war Afghanistan\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015pTf8rGYvDgaL3RE6ojgg6",
+   "content": "[2026] 2026 (MMXXVI) is the current year, and is a common year starting on Thursday of the Gregorian calendar, the 2026th year of the Common Era (CE) and Anno Domini (AD) designations, the 26th year of the 3rd millennium and the 21st century, and the 7th year of the 2020s decade. The early part of the year saw escalating armed conflicts in the Americas and Middle East. In January, the United States launched a military operation in Venezuela that captured sitting President Nicolás Maduro, leading to a blockade of Venezuelan oil exports that contributed to a crisis in Cuba. In Syria, an offensive by the Syrian government led to the Syrian Democratic Forces eventually being integrated into the Syrian Army, ending the Rojava Revolution, while in Yemen, a counteroffensive by the Yemeni government led to the collapse of the Southern Transitional Council, followed by Houthi offensives, including attacks on airports in Saudi Arabia. In February, Pakistan launched airstrikes against Afghanistan, leading to an open war between both nations. In Iran, in response to authorities cracking down on protests, the United States and Israel began a war in late February with the assassination of Supreme Leader Ali Khamenei, which resulted in widespread economic grief, fuel shortages and retaliatory strikes on Gulf nations, as well as the closure of the Strait of Hormuz and a naval blockade. There were also escalations of the Ethiopian civil conflict. The continued release of the Epstein files that began | другие статьи: 2025 Afghanistan–Pakistan conflict, Durand Line"
+  },
+  {
+   "role": "assistant",
+   "content": "The search results mention that in February Pakistan launched airstrikes and this led to an \"open war\" declaration. Let me search more specifically for what Pakistan declared on February 26.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01AR6bBn4V3b6Xzd9gUGN5gj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"February 26\\\" 2026 Pakistan Afghanistan military state\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01AR6bBn4V3b6Xzd9gUGN5gj",
+   "content": "[Bryant Neal Vinas] Bryant Neal Vinas (born December 4, 1982; also Ibrahim, Bashir al-Ameriki and Ben Yameen al-Kanadeeis) is an American convicted of participating in and supporting al-Qaeda plots in Afghanistan and the U.S. After converting to Islam in 2004, he traveled to Waziristan, Pakistan, in 2007 with the intention of meeting and joining a jihadist group to fight U.S. soldiers in Afghanistan. He was accepted into al-Qaeda and received training in general combat and military explosives. He also volunteered detailed information about the operation of the Long Island Rail Road (LIRR) system to a senior al-Qaeda leader to help plan a bomb attack on an LIRR commuter train in New York's Penn Station. Subsequently, he participated in two al-Qaeda rocket attacks on U.S. soldiers in Afghanistan in September 2008. He was captured by Pakistani forces in 2008 and transferred to FBI custody. In January 2009, he pleaded guilty to all three charges against him. After cooperating with law enforcement and testifying in two European terrorism trials, Vinas was sentenced in May 2017 to three months in prison additionally to the time that he had already served. He will remain under tight supervision for the rest of his life. | другие статьи: 2007 in Afghanistan, Ahmad Shah Massoud"
+  },
+  {
+   "role": "assistant",
+   "content": "That search wasn't helpful. Let me try searching for a more specific article about events in February 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_011aagjA8zVpi3CKhE1bsLXu",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 in Pakistan February events\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_011aagjA8zVpi3CKhE1bsLXu",
+   "content": "[2026 in Pakistan] The events listed below are both anticipated and scheduled for the year 2026 in Pakistan. The year 2026 will be the 79th year of the independence of Pakistan. | другие статьи: 2026 Afghanistan–Pakistan war, Pakistan at the 2026 Asian Games"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me look at the full page to find specific events in February 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01JPmzzupeiSQ9EvdqiCYUfp",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in Pakistan\", \"keywords\": [\"February 26\",\"Pakistan\",\"declaration\"], \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01JPmzzupeiSQ9EvdqiCYUfp",
+   "content": "[2026 in Pakistan] найдено строк: 60 (строк с половиной ключевых слов нет, показаны строки с 1 из 3)\n2026\nPakistan\n2027\n2028\n…\nSee also:\nHistory of Pakistan\nList of years in Pakistan\nTimeline of Pakistani history\nThis is a dynamic list and may never be able to satisfy particular standards for completeness. You can help by editing the page to add missing items, with references to reliable sources.\nThe events listed below are both anticipated and scheduled for the year 2026 in Pakistan.\nThe year 2026 will be the 79th year of the independence of Pakistan.\nIncumbents\nFederal government\n…\nAsif Ali Zardari\nPresident of Pakistan\nShehbaz Sharif\nPrime Minister of Pakistan\nYusuf Raza Gilani\nChairman of the Senate"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому , что уже известно , последней строкой FINAL: <ответ> ."
+  },
+  {
+   "role": "assistant",
+   "content": "На основе найденной информации о конфликте Афганистан-Пакистан:\n\nСогласно статье \"2026 Afghanistan–Pakistan war\", конфликт начался с пакистанских авиаударов по предполагаемым лагерям ПТП (пакистанских талибов) и ISKP в восточном Афганистане в феврале 2026 года и эскалировал в течение недели. \n\nМинистр обороны Пакистана Хавайя Асиф объявил об \"открытой войне\" между двумя странами, которая велась под кодовым названием \"Операция Газаб иль-Хак\".\n\nХотя точная дата февраля 26, 2026 года не была явно указана в результатах поиска, информация указывает на то, что именно это объявление \"открытой войны\" было главным пакистанским официальным заявлением в конце первой недели февраля 2026 года.\n\nFINAL: Пакистан объявил об \"открытой войне\" с Афганистаном",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

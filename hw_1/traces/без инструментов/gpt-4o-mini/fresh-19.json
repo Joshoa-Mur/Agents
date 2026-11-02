@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-19",
+  "source": "fresh",
+  "question": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?",
+  "answer": "Disney Kids & Family",
+  "evidence": "June 15: Disney Branded Television (Parent company of Disney Television Animation) rebrands itself as \"Disney Kids & Family\".",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Disney Branded Television rebranded itself as Disney Television Animation on June 15, 2026. \n\nFINAL: Disney Television Animation",
+ "correct": false,
+ "cost": 4.6649999999814895e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Сегодня 2 ноября 2026 года. События 2025 и 2026 годов уже произошли, информация о них есть в Википедии: не отказывайся отвечать, а ищи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Если вступление статьи не содержит ответа, читай статью через page_find; факты о событиях часто лежат в обзорных статьях вроде '2026 in Ukraine' или в таблицах страницы турнира. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса; имена и названия пиши в именительном падеже, как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Disney Branded Television rebranded itself as Disney Television Animation on June 15, 2026. \n\nFINAL: Disney Television Animation",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

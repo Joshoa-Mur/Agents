@@ -1,0 +1,301 @@
+config,model,id,source,correct,steps,tool_calls,cost,seconds,answer,gold
+без инструментов,claude-sonnet-4.6,wc-0,manual,False,1,0,0.028202999999999978,27.6,Альваро Мората,Торрес
+без инструментов,claude-sonnet-4.6,wc-1,manual,False,1,0,0.007032000000000149,8.6,82401,80 663
+без инструментов,claude-sonnet-4.6,wc-2,manual,False,1,0,0.008853000000000222,10.7,Шимон Марчиняк,Славко Винчич
+без инструментов,claude-sonnet-4.6,wc-3,manual,False,1,0,0.0062669999999998005,7.5,Родриго Де Поль,Энцо Фернандес
+без инструментов,claude-sonnet-4.6,wc-4,manual,False,1,0,0.0185550000000001,17.0,Коул Палмер,Сака
+без инструментов,claude-sonnet-4.6,wc-5,manual,False,1,0,0.011957999999999913,13.7,Альваро Мората,Оярсабаль
+без инструментов,claude-sonnet-4.6,wc-6,manual,False,1,0,0.013077000000000005,14.9,Ламин Ямаль,Порро
+без инструментов,claude-sonnet-4.6,wc-7,manual,False,1,0,0.0071310000000002205,9.2,Джуд Беллингем,Гордон
+без инструментов,claude-sonnet-4.6,wc-8,manual,False,1,0,0.011559000000000097,12.5,97,88
+без инструментов,claude-sonnet-4.6,wc-9,manual,False,1,0,0.015708000000000055,16.1,Ромелу Лукаку,Де Кетеларе
+без инструментов,claude-sonnet-4.6,wc-10,manual,False,1,0,0.015671999999999908,17.2,Букайо Сака,Беллингем
+без инструментов,claude-sonnet-4.6,wc-11,manual,False,1,0,0.006012000000000128,8.2,Педри,Килиан Мбаппе
+без инструментов,claude-sonnet-4.6,wc-12,manual,True,1,0,0.013761000000000134,13.4,Унаи Симон,Унаи Симон
+без инструментов,claude-sonnet-4.6,wc-13,manual,False,1,0,0.01090200000000019,11.1,Ламин Ямаль,Пау Кубарси
+без инструментов,claude-sonnet-4.6,wc-14,manual,False,1,0,0.008417999999999815,10.0,Соединённые Штаты (США),Нидерланды
+без инструментов,claude-sonnet-4.6,wc-15,manual,False,1,0,0.005276999999999976,7.4,Ламин Ямаль,Родриго Эрнандес
+без инструментов,claude-sonnet-4.6,wc-16,manual,False,1,0,0.015873000000000026,17.7,0,три
+без инструментов,claude-sonnet-4.6,wc-17,manual,False,1,0,0.016299000000000063,17.6,Юсуф Маруф,Омар Артан
+без инструментов,claude-sonnet-4.6,wc-18,manual,False,1,0,0.04276800000000014,42.4,В полуфинале (против Бразилии),четвертьфинале
+без инструментов,claude-sonnet-4.6,wc-19,manual,False,1,0,0.01871400000000012,18.6,Винисиус Жуниор,Майкл Олисе
+без инструментов,claude-sonnet-4.6,fresh-0,fresh,True,1,0,0.012392999999999876,13.6,15 March 2026,15 March
+без инструментов,claude-sonnet-4.6,fresh-1,fresh,False,1,0,0.0041280000000001316,6.3,"October 1, 2026",22 March
+без инструментов,claude-sonnet-4.6,fresh-2,fresh,False,1,0,0.011483999999999828,13.1,Украина,Miguel Díaz-Canel
+без инструментов,claude-sonnet-4.6,fresh-3,fresh,False,1,0,0.00859500000000013,11.5,"Bilateral treaty of friendship, partnership and mutual assis",a strategic partnership agreement
+без инструментов,claude-sonnet-4.6,fresh-4,fresh,False,1,0,0.017901000000000167,23.0,Бан на изделия из искусственного камня (engineered stone ben,A total fire ban
+без инструментов,claude-sonnet-4.6,fresh-5,fresh,False,1,0,0.02313300000000007,19.6,3,two people
+без инструментов,claude-sonnet-4.6,fresh-6,fresh,False,1,0,0.013466999999999896,12.6,28,"4,500"
+без инструментов,claude-sonnet-4.6,fresh-7,fresh,False,1,0,0.02423099999999989,21.6,Sedef Kabaş,Deniz Göktaş
+без инструментов,claude-sonnet-4.6,fresh-8,fresh,False,1,0,0.010200000000000209,10.2,Marc Fogel,Pavel Durov
+без инструментов,claude-sonnet-4.6,fresh-9,fresh,False,1,0,0.00440700000000005,5.6,Нанкин,New Delhi
+без инструментов,claude-sonnet-4.6,fresh-10,fresh,False,1,0,0.0040559999999998375,5.8,4,Twelve
+без инструментов,claude-sonnet-4.6,fresh-11,fresh,False,1,0,0.013628999999999891,14.6,Padiglione,Helter Skelter
+без инструментов,claude-sonnet-4.6,fresh-12,fresh,False,1,0,0.03244800000000003,27.8,"1,736,163","700,000"
+без инструментов,claude-sonnet-4.6,fresh-13,fresh,False,1,0,0.00650100000000009,7.0,42.2°C,41.5 °C
+без инструментов,claude-sonnet-4.6,fresh-14,fresh,False,1,0,0.03323099999999979,25.7,Sevilla,Ciudad Rodrigo
+без инструментов,claude-sonnet-4.6,fresh-15,fresh,True,1,0,0.008868000000000098,8.2,Oleksandr Syrskyi,Oleksandr Syrskyi
+без инструментов,claude-sonnet-4.6,fresh-16,fresh,False,1,0,0.01035599999999981,11.5,Ottawa Charge,Montreal Victoire
+без инструментов,claude-sonnet-4.6,fresh-17,fresh,False,1,0,0.011409000000000002,13.2,PSLV-C61 / EOS-09,EOS-05
+без инструментов,claude-sonnet-4.6,fresh-18,fresh,False,1,0,0.012999000000000205,13.8,"November 11, 2019",13 July
+без инструментов,claude-sonnet-4.6,fresh-19,fresh,False,1,0,0.0045720000000000205,6.8,Walt Disney Television Animation,Disney Kids & Family
+без инструментов,claude-sonnet-4.6,fresh-20,fresh,False,1,0,0.007859999999999978,9.8,Round of 32,single-elimination
+без инструментов,claude-sonnet-4.6,fresh-21,fresh,False,1,0,0.018669000000000047,19.1,Ethan Nguyen,Gavin Snider
+без инструментов,claude-sonnet-4.6,fresh-22,fresh,False,1,0,0.017919000000000018,14.5,Leafy Wings,Clara and the Below
+без инструментов,claude-sonnet-4.6,fresh-23,fresh,False,1,0,0.006762000000000157,7.2,Олександр Дубінський (Oleksandr Dubinsky),German Galushchenko
+без инструментов,claude-sonnet-4.6,fresh-24,fresh,True,1,0,0.005927999999999933,7.8,засуха (drought),a drought
+без инструментов,claude-sonnet-4.6,fresh-25,fresh,False,1,0,0.009015000000000217,10.9,национальную чрезвычайную ситуацию (national emergency),"""open war"""
+без инструментов,claude-sonnet-4.6,fresh-26,fresh,False,1,0,0.002906999999999993,4.2,27,nine
+без инструментов,claude-sonnet-4.6,fresh-27,fresh,False,1,0,0.014339999999999797,12.3,Маркус Хинтерхойзер,Markus Hinterhäuser
+без инструментов,claude-sonnet-4.6,fresh-28,fresh,False,1,0,0.003185999999999911,4.0,4,nine
+без инструментов,claude-sonnet-4.6,fresh-29,fresh,False,1,0,0.005597999999999992,7.2,3,43
+без инструментов,claude-sonnet-4.6,fresh-30,fresh,False,1,0,0.003878999999999966,5.2,Изmir,Ankara
+без инструментов,claude-sonnet-4.6,fresh-31,fresh,False,1,0,0.0043560000000000265,4.7,Olzhas Bektenov,Aibek Dädebai
+без инструментов,claude-sonnet-4.6,fresh-32,fresh,False,1,0,0.01897200000000021,17.4,Mitch Cairns,Richard Lewer
+без инструментов,claude-sonnet-4.6,fresh-33,fresh,False,1,0,0.007950000000000124,8.2,Harriet Baldwin,Marilyn Gladu
+без инструментов,claude-sonnet-4.6,fresh-34,fresh,False,1,0,0.005181000000000324,6.2,5.5,6.3
+без инструментов,claude-sonnet-4.6,fresh-35,fresh,False,1,0,0.030269999999999797,27.0,Ross Edgley,Dina Levačić
+без инструментов,claude-sonnet-4.6,fresh-36,fresh,False,1,0,0.007316999999999574,8.5,342,129
+без инструментов,claude-sonnet-4.6,fresh-37,fresh,False,1,0,0.02399099999999965,26.3,2 June 2026,15 June
+без инструментов,claude-sonnet-4.6,fresh-38,fresh,True,1,0,0.018191999999999986,22.8,Chief Minister of Kerala,Chief Minister
+без инструментов,claude-sonnet-4.6,fresh-39,fresh,False,1,0,0.004262999999999906,5.2,"Vinalopó valley, near Novelda and Aspe, Province of Alicante",Gelida
+без инструментов,gpt-4o-mini,wc-0,manual,False,1,0,0.00011325000000006469,4.4,Лионель Месси,Торрес
+без инструментов,gpt-4o-mini,wc-1,manual,False,1,0,7.514999999980176e-05,3.0,"Я не имею доступа к информации после октября 2023 года, вклю",80 663
+без инструментов,gpt-4o-mini,wc-2,manual,False,1,0,4.619999999988522e-05,2.1,Я не могу предоставить информацию о событиях после октября 2,Славко Винчич
+без инструментов,gpt-4o-mini,wc-3,manual,False,1,0,6.180000000011177e-05,2.2,Лионель Месси.,Энцо Фернандес
+без инструментов,gpt-4o-mini,wc-4,manual,False,1,0,9.329999999962979e-05,2.6,Гарри Кейн,Сака
+без инструментов,gpt-4o-mini,wc-5,manual,False,1,0,3.885000000014571e-05,1.5,"Дайте мне немного времени, чтобы найти эту информацию.",Оярсабаль
+без инструментов,gpt-4o-mini,wc-6,manual,False,1,0,6.434999999971325e-05,2.7,"Я не могу предоставить информацию о событиях, произошедших п",Порро
+без инструментов,gpt-4o-mini,wc-7,manual,False,1,0,4.7999999999603915e-05,2.1,"Пожалуйста, подождите, я ищу информацию о полуфинале чемпион",Гордон
+без инструментов,gpt-4o-mini,wc-8,manual,False,1,0,7.514999999980176e-05,2.4,Я сейчас найду информацию о матче сборной Испании против Бел,88
+без инструментов,gpt-4o-mini,wc-9,manual,False,1,0,5.8649999999715874e-05,1.9,Я проверю информацию о четвертьфинале чемпионата мира по фут,Де Кетеларе
+без инструментов,gpt-4o-mini,wc-10,manual,False,1,0,4.559999999997899e-05,2.3,Мне нужно выполнить поиск информации по событиям 2025 и 2026,Беллингем
+без инструментов,gpt-4o-mini,wc-11,manual,False,1,0,6.030000000034619e-05,2.5,Я не могу предоставить информацию о событиях после октября 2,Килиан Мбаппе
+без инструментов,gpt-4o-mini,wc-12,manual,False,1,0,5.1299999999976365e-05,2.9,"Я не могу получить информацию о событиях, произошедших после",Унаи Симон
+без инструментов,gpt-4o-mini,wc-13,manual,False,1,0,6.329999999987734e-05,1.9,"Я не могу предоставить информацию о том, кто был признан луч",Пау Кубарси
+без инструментов,gpt-4o-mini,wc-14,manual,False,1,0,6.030000000034619e-05,2.0,Я не могу найти информацию о чемпионате мира по футболу 2026,Нидерланды
+без инструментов,gpt-4o-mini,wc-15,manual,False,1,0,3.705000000042702e-05,2.0,"Дайте мне немного времени, я найду информацию.",Родриго Эрнандес
+без инструментов,gpt-4o-mini,wc-16,manual,False,1,0,8.219999999958816e-05,3.5,2,три
+без инструментов,gpt-4o-mini,wc-17,manual,False,1,0,6.570000000039045e-05,5.0,Хосе Мария Санчес Арнео.,Омар Артан
+без инструментов,gpt-4o-mini,wc-18,manual,False,1,0,5.954999999957522e-05,5.3,"Для нахождения информации о том, на какой стадии чемпионата ",четвертьфинале
+без инструментов,gpt-4o-mini,wc-19,manual,False,1,0,4.829999999955703e-05,2.2,Я не могу предоставить информацию о событиях после октября 2,Майкл Олисе
+без инструментов,gpt-4o-mini,fresh-0,fresh,False,1,0,5.100000000002325e-05,2.7,"March 19, 2026",15 March
+без инструментов,gpt-4o-mini,fresh-1,fresh,False,1,0,4.634999999986178e-05,1.6,"February 25, 2025",22 March
+без инструментов,gpt-4o-mini,fresh-2,fresh,False,1,0,4.9950000000187345e-05,1.9,Официальные представители Китая,Miguel Díaz-Canel
+без инструментов,gpt-4o-mini,fresh-3,fresh,False,1,0,6.150000000015865e-05,2.1,Agreement on strategic cooperation and energy sector.,a strategic partnership agreement
+без инструментов,gpt-4o-mini,fresh-4,fresh,False,1,0,6.660000000024979e-05,2.5,Casual workers included in long-service leave scheme.,A total fire ban
+без инструментов,gpt-4o-mini,fresh-5,fresh,False,1,0,7.320000000010651e-05,2.9,6,two people
+без инструментов,gpt-4o-mini,fresh-6,fresh,False,1,0,6.690000000020291e-05,2.3,250,"4,500"
+без инструментов,gpt-4o-mini,fresh-7,fresh,False,1,0,7.019999999968718e-05,2.7,Ahmet Altan,Deniz Göktaş
+без инструментов,gpt-4o-mini,fresh-8,fresh,False,1,0,4.950000000025767e-05,2.1,I will look for the relevant information about who was charg,Pavel Durov
+без инструментов,gpt-4o-mini,fresh-9,fresh,False,1,0,4.694999999976801e-05,1.7,"Tokyo, Japan",New Delhi
+без инструментов,gpt-4o-mini,fresh-10,fresh,False,1,0,5.204999999985915e-05,2.7,16,Twelve
+без инструментов,gpt-4o-mini,fresh-11,fresh,False,1,0,5.219999999983571e-05,5.0,I will look for the information about the art exhibition at ,Helter Skelter
+без инструментов,gpt-4o-mini,fresh-12,fresh,False,1,0,7.994999999993979e-05,2.4,"1,130,000","700,000"
+без инструментов,gpt-4o-mini,fresh-13,fresh,False,1,0,6.929999999982783e-05,2.8,42.6 degrees Celsius,41.5 °C
+без инструментов,gpt-4o-mini,fresh-14,fresh,False,1,0,5.100000000002325e-05,2.2,Madrid,Ciudad Rodrigo
+без инструментов,gpt-4o-mini,fresh-15,fresh,False,1,0,5.7899999999833085e-05,2.3,Valerii Zaluzhnyi,Oleksandr Syrskyi
+без инструментов,gpt-4o-mini,fresh-16,fresh,False,1,0,7.215000000027061e-05,2.0,Moscow Bears,Montreal Victoire
+без инструментов,gpt-4o-mini,fresh-17,fresh,False,1,0,5.100000000002325e-05,2.9,Gaganyaan mission.,EOS-05
+без инструментов,gpt-4o-mini,fresh-18,fresh,False,1,0,5.369999999960129e-05,2.9,"November 30, 2021",13 July
+без инструментов,gpt-4o-mini,fresh-19,fresh,False,1,0,4.6649999999814895e-05,7.2,Disney Television Animation,Disney Kids & Family
+без инструментов,gpt-4o-mini,fresh-20,fresh,True,1,0,4.365000000028374e-05,2.8,single-elimination format,single-elimination
+без инструментов,gpt-4o-mini,fresh-21,fresh,False,1,0,4.169999999970031e-05,1.4,I will look for relevant information regarding the artist wh,Gavin Snider
+без инструментов,gpt-4o-mini,fresh-22,fresh,False,1,0,6.165000000013521e-05,1.9,I'm unable to provide information about events that occurred,Clara and the Below
+без инструментов,gpt-4o-mini,fresh-23,fresh,False,1,0,7.125000000041126e-05,3.8,Viktor Medvedchuk,German Galushchenko
+без инструментов,gpt-4o-mini,fresh-24,fresh,False,1,0,5.400000000044258e-05,1.9,A state of emergency due to severe flooding.,a drought
+без инструментов,gpt-4o-mini,fresh-25,fresh,False,1,0,7.800000000024454e-05,2.3,full military mobilization,"""open war"""
+без инструментов,gpt-4o-mini,fresh-26,fresh,False,1,0,3.825000000023948e-05,2.7,"Дайте мне секунду, чтобы найти нужную информацию.",nine
+без инструментов,gpt-4o-mini,fresh-27,fresh,False,1,0,5.5200000000255045e-05,1.7,Christian Thielemann,Markus Hinterhäuser
+без инструментов,gpt-4o-mini,fresh-28,fresh,False,1,0,7.305000000012996e-05,2.4,4,nine
+без инструментов,gpt-4o-mini,fresh-29,fresh,False,1,0,8.985000000016896e-05,3.3,15,43
+без инструментов,gpt-4o-mini,fresh-30,fresh,False,1,0,6.540000000043733e-05,3.0,Istanbul,Ankara
+без инструментов,gpt-4o-mini,fresh-31,fresh,False,1,0,7.695000000040864e-05,2.1,Amanat party,Aibek Dädebai
+без инструментов,gpt-4o-mini,fresh-32,fresh,False,1,0,5.5950000000137834e-05,2.4,David Bromley,Richard Lewer
+без инструментов,gpt-4o-mini,fresh-33,fresh,False,1,0,4.7249999999721126e-05,2.3,David Warburton,Marilyn Gladu
+без инструментов,gpt-4o-mini,fresh-34,fresh,False,1,0,5.204999999985915e-05,2.5,I need to find the specific details about the earthquake in ,6.3
+без инструментов,gpt-4o-mini,fresh-35,fresh,False,1,0,4.845000000042177e-05,2.1,Lewis Pugh,Dina Levačić
+без инструментов,gpt-4o-mini,fresh-36,fresh,False,1,0,5.384999999957785e-05,3.2,I will look up the information about the earthquake off the ,129
+без инструментов,gpt-4o-mini,fresh-37,fresh,False,1,0,4.679999999979145e-05,1.9,"June 21, 2026",15 June
+без инструментов,gpt-4o-mini,fresh-38,fresh,False,1,0,7.994999999993979e-05,2.3,Leader of the Opposition in Kerala Legislative Assembly,Chief Minister
+без инструментов,gpt-4o-mini,fresh-39,fresh,False,1,0,7.559999999973144e-05,3.1,"Cerdanyola del Vallès, Spain",Gelida
+поиск,gpt-4o-mini,wc-0,manual,False,8,7,0.0014745000000004893,36.1,финал закончился со счетом 1-0 в пользу Испании.,Торрес
+поиск,gpt-4o-mini,wc-1,manual,False,8,7,0.001142699999999941,31.9,80663,80 663
+поиск,gpt-4o-mini,wc-2,manual,False,2,1,0.00019185000000021546,6.0,Славко Винчиć,Славко Винчич
+поиск,gpt-4o-mini,wc-3,manual,False,9,7,0.002111550000000406,32.7,неизвестно.,Энцо Фернандес
+поиск,gpt-4o-mini,wc-4,manual,False,9,8,0.001768800000000681,43.7,Информация отсутствует.,Сака
+поиск,gpt-4o-mini,wc-5,manual,False,9,7,0.0022172999999998666,34.3,<информация недоступна>,Оярсабаль
+поиск,gpt-4o-mini,wc-6,manual,False,9,7,0.0020617500000001954,33.7,<информация недоступна>,Порро
+поиск,gpt-4o-mini,wc-7,manual,False,9,7,0.0020815499999997655,36.7,Не найдено информации о голе.,Гордон
+поиск,gpt-4o-mini,wc-8,manual,False,9,7,0.0016555500000015044,40.8,информация не найдена.,88
+поиск,gpt-4o-mini,wc-9,manual,False,9,7,0.0018505500000003394,41.3,Гол забил не найден.,Де Кетеларе
+поиск,gpt-4o-mini,wc-10,manual,False,9,8,0.0017611500000009883,38.1,информацию не удалось найти.,Беллингем
+поиск,gpt-4o-mini,wc-11,manual,False,2,1,0.00019919999999995497,5.8,Лионель Месси,Килиан Мбаппе
+поиск,gpt-4o-mini,wc-12,manual,False,9,7,0.0016486499999999182,33.3,информация отсутствует,Унаи Симон
+поиск,gpt-4o-mini,wc-13,manual,False,9,7,0.0017319000000002305,33.3,Габриэль Мартинелли,Пау Кубарси
+поиск,gpt-4o-mini,wc-14,manual,False,9,7,0.0015582000000007312,32.2,Информация отсутствует.,Нидерланды
+поиск,gpt-4o-mini,wc-15,manual,False,2,1,0.000204000000000093,6.9,Гарри Кейн,Родриго Эрнандес
+поиск,gpt-4o-mini,wc-16,manual,False,9,7,0.0016615499999996786,37.2,Информация отсутствует,три
+поиск,gpt-4o-mini,wc-17,manual,False,9,7,0.0025658999999995658,37.9,Неизвестно.,Омар Артан
+поиск,gpt-4o-mini,wc-18,manual,False,9,7,0.0016601999999990014,40.2,четвертьфинал,четвертьфинале
+поиск,gpt-4o-mini,wc-19,manual,False,9,7,0.002194199999999924,31.4,Неизвестно.,Майкл Олисе
+поиск,gpt-4o-mini,fresh-0,fresh,True,9,7,0.0014176500000004921,43.9,15 марта 2026 года,15 March
+поиск,gpt-4o-mini,fresh-1,fresh,True,3,2,0.0002470500000004705,9.8,22 March 2026,22 March
+поиск,gpt-4o-mini,fresh-2,fresh,False,2,1,0.00019860000000004874,5.5,Иран.,Miguel Díaz-Canel
+поиск,gpt-4o-mini,fresh-3,fresh,False,9,7,0.0013414500000008545,36.9,Соглашение о сотрудничестве в сфере безопасности и борьбы с ,a strategic partnership agreement
+поиск,gpt-4o-mini,fresh-4,fresh,False,9,7,0.0010162500000019392,29.1,Новый закон о контроле за оружием.,A total fire ban
+поиск,gpt-4o-mini,fresh-5,fresh,False,2,1,0.00014414999999967648,5.4,2,two people
+поиск,gpt-4o-mini,fresh-6,fresh,False,2,1,0.00017729999999982482,5.4,519,"4,500"
+поиск,gpt-4o-mini,fresh-7,fresh,True,7,6,0.0008536500000015934,30.9,İmran Deniz Göktaş,Deniz Göktaş
+поиск,gpt-4o-mini,fresh-8,fresh,False,9,7,0.0011914499999994277,29.6,информация отсутствует.,Pavel Durov
+поиск,gpt-4o-mini,fresh-9,fresh,True,2,1,0.00014279999999988746,5.6,"New Delhi, India",New Delhi
+поиск,gpt-4o-mini,fresh-10,fresh,False,9,7,0.0010207499999994596,33.8,информация отсутствует.,Twelve
+поиск,gpt-4o-mini,fresh-11,fresh,False,9,7,0.001185600000000342,35.5,выставка Майкла Хайзера.,Helter Skelter
+поиск,gpt-4o-mini,fresh-12,fresh,False,9,8,0.001740300000000694,36.2,<нет данных>,"700,000"
+поиск,gpt-4o-mini,fresh-13,fresh,False,9,7,0.0014613000000007759,30.9,Нету данных.,41.5 °C
+поиск,gpt-4o-mini,fresh-14,fresh,False,9,7,0.0015611999999993742,28.7,Неизвестно.,Ciudad Rodrigo
+поиск,gpt-4o-mini,fresh-15,fresh,False,9,7,0.0014007000000004766,35.1,Валерий Залужный.,Oleksandr Syrskyi
+поиск,gpt-4o-mini,fresh-16,fresh,True,2,1,0.00015870000000006712,5.2,Montreal Victoire,Montreal Victoire
+поиск,gpt-4o-mini,fresh-17,fresh,False,8,7,0.0011203500000007693,27.6,No specific launch information available.,EOS-05
+поиск,gpt-4o-mini,fresh-18,fresh,True,3,2,0.00036044999999962357,11.4,13 July 2026,13 July
+поиск,gpt-4o-mini,fresh-19,fresh,True,9,7,0.0016300500000001605,29.0,Disney Kids & Family,Disney Kids & Family
+поиск,gpt-4o-mini,fresh-20,fresh,True,2,1,0.00017189999999978056,5.7,Single-elimination tournament format.,single-elimination
+поиск,gpt-4o-mini,fresh-21,fresh,False,9,7,0.0012826499999993857,31.0,информация недоступна.,Gavin Snider
+поиск,gpt-4o-mini,fresh-22,fresh,False,9,7,0.0011570999999976905,30.0,информация отсутствует.,Clara and the Below
+поиск,gpt-4o-mini,fresh-23,fresh,False,9,7,0.001729949999999647,39.6,Владимир Гройсман,German Galushchenko
+поиск,gpt-4o-mini,fresh-24,fresh,False,7,6,0.0008941499999997049,25.7,heat emergency,a drought
+поиск,gpt-4o-mini,fresh-25,fresh,True,3,2,0.00035205000000004816,12.8,"""open war"" against Afghanistan","""open war"""
+поиск,gpt-4o-mini,fresh-26,fresh,False,9,7,0.0012124499999996985,34.7,информация не найдена.,nine
+поиск,gpt-4o-mini,fresh-27,fresh,False,5,4,0.0005386500000010841,17.4,Anna Netrebko,Markus Hinterhäuser
+поиск,gpt-4o-mini,fresh-28,fresh,False,2,1,0.00017925000000040825,5.8,6,nine
+поиск,gpt-4o-mini,fresh-29,fresh,False,2,1,0.00017505000000017645,6.8,46,43
+поиск,gpt-4o-mini,fresh-30,fresh,False,8,7,0.0008929499999990043,26.0,не найдено информации,Ankara
+поиск,gpt-4o-mini,fresh-31,fresh,False,9,9,0.0014632500000004711,31.3,Алихан Смаилов,Aibek Dädebai
+поиск,gpt-4o-mini,fresh-32,fresh,False,9,7,0.001152599999999282,33.6,Не найдено информации о победителе Архибальдского приза в 20,Richard Lewer
+поиск,gpt-4o-mini,fresh-33,fresh,False,9,7,0.0014902500000006924,34.3,Алан Кемпбелл,Marilyn Gladu
+поиск,gpt-4o-mini,fresh-34,fresh,False,9,7,0.0013507500000002892,32.6,Неизвестно,6.3
+поиск,gpt-4o-mini,fresh-35,fresh,False,5,4,0.0007203000000002291,19.8,информация не найдена,Dina Levačić
+поиск,gpt-4o-mini,fresh-36,fresh,False,2,1,0.00016740000000048383,7.3,142,129
+поиск,gpt-4o-mini,fresh-37,fresh,False,9,7,0.0012338999999990108,38.4,16 мая 2026 года.,15 June
+поиск,gpt-4o-mini,fresh-38,fresh,False,3,2,0.0002713500000002256,10.1,13-й министр Кералы,Chief Minister
+поиск,gpt-4o-mini,fresh-39,fresh,False,2,1,0.00017474999999933516,5.4,"Adamuz, Córdoba",Gelida
+поиск + чтение,gpt-4o-mini,wc-0,manual,True,2,1,0.00028335000000012656,6.9,Ферран Торрес,Торрес
+поиск + чтение,gpt-4o-mini,wc-1,manual,False,3,2,0.0005162999999992479,7.6,80663,80 663
+поиск + чтение,gpt-4o-mini,wc-2,manual,True,2,1,0.00027959999999982443,5.7,Славко Винчич,Славко Винчич
+поиск + чтение,gpt-4o-mini,wc-3,manual,True,3,2,0.00041459999999915453,7.5,Энцо Фернандес,Энцо Фернандес
+поиск + чтение,gpt-4o-mini,wc-4,manual,False,7,6,0.0012618000000008678,18.0,Гарри Кейн,Сака
+поиск + чтение,gpt-4o-mini,wc-5,manual,False,8,7,0.0018020999999999177,29.0,Микель Оярзабал,Оярсабаль
+поиск + чтение,gpt-4o-mini,wc-6,manual,True,9,7,0.002334900000001028,30.4,Порро,Порро
+поиск + чтение,gpt-4o-mini,wc-7,manual,False,9,7,0.0022702500000004733,30.2,неизвестно,Гордон
+поиск + чтение,gpt-4o-mini,wc-8,manual,False,9,7,0.0015025500000005465,31.4,информация недоступна.,88
+поиск + чтение,gpt-4o-mini,wc-9,manual,False,6,5,0.0012895499999983073,21.3,забит гол сборной Бельгии.,Де Кетеларе
+поиск + чтение,gpt-4o-mini,wc-10,manual,False,9,7,0.0016249499999991812,28.5,Информация недоступна.,Беллингем
+поиск + чтение,gpt-4o-mini,wc-11,manual,True,3,2,0.0004711500000000868,7.9,Килиан Мбаппе,Килиан Мбаппе
+поиск + чтение,gpt-4o-mini,wc-12,manual,False,4,3,0.0005534999999996515,11.8,Унай Симон.,Унаи Симон
+поиск + чтение,gpt-4o-mini,wc-13,manual,True,5,4,0.0007882499999993797,18.6,Пау Кубарси.,Пау Кубарси
+поиск + чтение,gpt-4o-mini,wc-14,manual,True,3,2,0.0004525500000003291,7.6,Нидерланды,Нидерланды
+поиск + чтение,gpt-4o-mini,wc-15,manual,False,4,3,0.0006250500000000159,12.7,Гарри Кейн,Родриго Эрнандес
+поиск + чтение,gpt-4o-mini,wc-16,manual,True,6,5,0.0013342499999993152,20.3,три игрока,три
+поиск + чтение,gpt-4o-mini,wc-17,manual,True,7,6,0.0012057000000007534,21.5,Омар Артан,Омар Артан
+поиск + чтение,gpt-4o-mini,wc-18,manual,False,6,5,0.0008659499999996711,20.4,Четвертьфинал,четвертьфинале
+поиск + чтение,gpt-4o-mini,wc-19,manual,True,5,4,0.000817350000000161,11.4,Майкл Олисе,Майкл Олисе
+поиск + чтение,gpt-4o-mini,fresh-0,fresh,True,3,2,0.00044220000000017023,8.2,"March 15, 2026",15 March
+поиск + чтение,gpt-4o-mini,fresh-1,fresh,True,3,2,0.0004482000000010089,10.2,22 March 2026,22 March
+поиск + чтение,gpt-4o-mini,fresh-2,fresh,False,3,2,0.0004243500000002953,8.1,Iran,Miguel Díaz-Canel
+поиск + чтение,gpt-4o-mini,fresh-3,fresh,True,3,2,0.0004156500000007668,7.9,strategic partnership agreement in the defense and energy se,a strategic partnership agreement
+поиск + чтение,gpt-4o-mini,fresh-4,fresh,True,7,6,0.0009781500000007881,25.9,total fire ban,A total fire ban
+поиск + чтение,gpt-4o-mini,fresh-5,fresh,False,2,1,0.00023145000000024396,5.7,2,two people
+поиск + чтение,gpt-4o-mini,fresh-6,fresh,False,3,2,0.0004979999999994433,15.8,519,"4,500"
+поиск + чтение,gpt-4o-mini,fresh-7,fresh,True,3,2,0.00040184999999937077,11.5,Deniz Göktaş,Deniz Göktaş
+поиск + чтение,gpt-4o-mini,fresh-8,fresh,True,3,2,0.00038114999999994126,9.1,Pavel Durov,Pavel Durov
+поиск + чтение,gpt-4o-mini,fresh-9,fresh,True,2,1,0.00022935000000057215,6.2,"New Delhi, India",New Delhi
+поиск + чтение,gpt-4o-mini,fresh-10,fresh,False,8,6,0.0012253499999994588,42.3,неизвестно,Twelve
+поиск + чтение,gpt-4o-mini,fresh-11,fresh,True,3,2,0.0004055999999996729,8.1,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+поиск + чтение,gpt-4o-mini,fresh-12,fresh,True,5,4,0.0008512500000001921,14.2,700000,"700,000"
+поиск + чтение,gpt-4o-mini,fresh-13,fresh,False,7,6,0.0014655000000001195,17.4,38.5 °C,41.5 °C
+поиск + чтение,gpt-4o-mini,fresh-14,fresh,True,5,4,0.0006798000000003412,21.0,Ciudad Rodrigo,Ciudad Rodrigo
+поиск + чтение,gpt-4o-mini,fresh-15,fresh,True,3,2,0.00047580000000024825,7.1,Oleksandr Syrskyi,Oleksandr Syrskyi
+поиск + чтение,gpt-4o-mini,fresh-16,fresh,True,3,2,0.000422699999999665,7.8,Montreal Victoire,Montreal Victoire
+поиск + чтение,gpt-4o-mini,fresh-17,fresh,False,9,7,0.0019451999999997582,31.5,запуск ракеты-носителя для миссии Гаганяан.,EOS-05
+поиск + чтение,gpt-4o-mini,fresh-18,fresh,False,3,2,0.00041970000000013385,13.6,July 2026,13 July
+поиск + чтение,gpt-4o-mini,fresh-19,fresh,True,9,7,0.0021947999999998302,31.1,Disney Kids & Family,Disney Kids & Family
+поиск + чтение,gpt-4o-mini,fresh-20,fresh,True,3,2,0.00040574999999964945,7.1,single-elimination format,single-elimination
+поиск + чтение,gpt-4o-mini,fresh-21,fresh,True,6,5,0.0009790500000006475,21.5,Gavin Snider,Gavin Snider
+поиск + чтение,gpt-4o-mini,fresh-22,fresh,True,3,2,0.00042284999999964157,9.4,Clara and the Below,Clara and the Below
+поиск + чтение,gpt-4o-mini,fresh-23,fresh,True,4,3,0.0006019500000000733,18.3,German Galushchenko,German Galushchenko
+поиск + чтение,gpt-4o-mini,fresh-24,fresh,True,5,4,0.0008271000000004136,12.7,drought,a drought
+поиск + чтение,gpt-4o-mini,fresh-25,fresh,True,4,3,0.0006455999999994688,9.8,"""open war"" declared","""open war"""
+поиск + чтение,gpt-4o-mini,fresh-26,fresh,True,3,2,0.0003833999999995896,7.6,nine people,nine
+поиск + чтение,gpt-4o-mini,fresh-27,fresh,True,7,6,0.0011053499999995609,21.1,Markus Hinterhäuser,Markus Hinterhäuser
+поиск + чтение,gpt-4o-mini,fresh-28,fresh,False,2,1,0.0002694000000005303,5.5,6,nine
+поиск + чтение,gpt-4o-mini,fresh-29,fresh,False,3,2,0.0004738499999996648,7.0,46,43
+поиск + чтение,gpt-4o-mini,fresh-30,fresh,True,3,2,0.0004023000000001886,7.0,Ankara,Ankara
+поиск + чтение,gpt-4o-mini,fresh-31,fresh,False,9,7,0.0016774500000007464,27.1,Информация о новом правительстве отсутствует.,Aibek Dädebai
+поиск + чтение,gpt-4o-mini,fresh-32,fresh,True,3,2,0.0004808999999994512,9.0,"Richard Lewer for ""Iluwanti Ken""",Richard Lewer
+поиск + чтение,gpt-4o-mini,fresh-33,fresh,False,9,7,0.001855049999998748,33.3,Неизвестно,Marilyn Gladu
+поиск + чтение,gpt-4o-mini,fresh-34,fresh,False,9,7,0.001582950000000416,31.4,6.1,6.3
+поиск + чтение,gpt-4o-mini,fresh-35,fresh,False,3,2,0.00046034999999999826,10.2,Дина Левачич,Dina Levačić
+поиск + чтение,gpt-4o-mini,fresh-36,fresh,False,3,2,0.00045900000000020924,8.1,142,129
+поиск + чтение,gpt-4o-mini,fresh-37,fresh,True,6,5,0.000969600000000348,26.5,"June 15, 2026",15 June
+поиск + чтение,gpt-4o-mini,fresh-38,fresh,True,4,3,0.0006299999999992423,9.5,Chief Minister of Kerala,Chief Minister
+поиск + чтение,gpt-4o-mini,fresh-39,fresh,False,3,2,0.0004888500000008733,6.6,"Adamuz, Córdoba",Gelida
+поиск + чтение,claude-haiku-4.5,wc-0,manual,True,4,3,0.022033999999999665,13.5,Ферран Торрес,Торрес
+поиск + чтение,claude-haiku-4.5,wc-1,manual,True,4,3,0.020837000000000216,10.5,80 663 зрителей,80 663
+поиск + чтение,claude-haiku-4.5,wc-2,manual,True,2,1,0.010117000000000154,5.7,Славко Винчич,Славко Винчич
+поиск + чтение,claude-haiku-4.5,wc-3,manual,False,9,10,0.0660810000000005,52.1,Энсо Фернандес получил красную карточку (был удален) в матче,Энцо Фернандес
+поиск + чтение,claude-haiku-4.5,wc-4,manual,True,9,9,0.06723300000000076,36.7,Не удалось найти полную информацию о хет-трике в матче за тр,Сака
+поиск + чтение,claude-haiku-4.5,wc-5,manual,False,9,7,0.058074999999999655,31.5,"Я не смог найти информацию о том, кто забил первый гол с пен",Оярсабаль
+поиск + чтение,claude-haiku-4.5,wc-6,manual,False,9,8,0.06497699999999895,35.2,Информация недоступна в найденных источниках,Порро
+поиск + чтение,claude-haiku-4.5,wc-7,manual,False,9,7,0.05495800000000095,29.5,Информация недоступна в найденных источниках,Гордон
+поиск + чтение,claude-haiku-4.5,wc-8,manual,False,9,7,0.05278500000000008,28.4,Информация о конкретной минуте гола Мерино в четвертьфинале ,88
+поиск + чтение,claude-haiku-4.5,wc-9,manual,False,9,7,0.05794699999999953,35.7,Charles De Ketelaere,Де Кетеларе
+поиск + чтение,claude-haiku-4.5,wc-10,manual,False,4,3,0.02259999999999973,13.6,Jude Bellingham сделал дубль за сборную Англии в четвертьфин,Беллингем
+поиск + чтение,claude-haiku-4.5,wc-11,manual,True,5,4,0.031183000000000405,16.1,Килиан Мбаппе (10 голов),Килиан Мбаппе
+поиск + чтение,claude-haiku-4.5,wc-12,manual,False,4,3,0.020803999999999157,13.7,Unai Simón признан лучшим вратарём чемпионата мира по футбол,Унаи Симон
+поиск + чтение,claude-haiku-4.5,wc-13,manual,True,4,3,0.022711000000001036,14.0,Пау Кубарси,Пау Кубарси
+поиск + чтение,claude-haiku-4.5,wc-14,manual,True,3,3,0.017374000000000223,10.8,Нидерланды,Нидерланды
+поиск + чтение,claude-haiku-4.5,wc-15,manual,False,4,5,0.02535099999999968,18.7,Родри,Родриго Эрнандес
+поиск + чтение,claude-haiku-4.5,wc-16,manual,False,4,3,0.021628000000000647,10.8,1 игрок,три
+поиск + чтение,claude-haiku-4.5,wc-17,manual,True,5,4,0.03136299999999981,20.4,Омар Артан,Омар Артан
+поиск + чтение,claude-haiku-4.5,wc-18,manual,False,9,8,0.057971000000001105,32.5,Недостаточно данных для точного ответа,четвертьфинале
+поиск + чтение,claude-haiku-4.5,wc-19,manual,True,5,4,0.029771999999999466,15.1,Майкл Олисе,Майкл Олисе
+поиск + чтение,claude-haiku-4.5,fresh-0,fresh,True,5,4,0.026682000000000095,13.9,"March 15, 2026",15 March
+поиск + чтение,claude-haiku-4.5,fresh-1,fresh,True,2,1,0.009183000000000163,5.3,Progress MS-33 was launched on 22 March 2026.,22 March
+поиск + чтение,claude-haiku-4.5,fresh-2,fresh,False,9,7,0.0557129999999999,33.0,Unable to determine from available search results,Miguel Díaz-Canel
+поиск + чтение,claude-haiku-4.5,fresh-3,fresh,True,4,3,0.019681999999999533,15.7,"On 12 March 2026, Ukraine and Romania signed a strategic par",a strategic partnership agreement
+поиск + чтение,claude-haiku-4.5,fresh-4,fresh,True,4,3,0.019845999999999364,13.9,A total fire ban came into force in Victoria on 9 January 20,A total fire ban
+поиск + чтение,claude-haiku-4.5,fresh-5,fresh,True,2,1,0.009383000000000585,8.4,"Two people were killed in the car incident in Leipzig, Germa",two people
+поиск + чтение,claude-haiku-4.5,fresh-6,fresh,False,2,1,0.00957399999999975,5.8,519,"4,500"
+поиск + чтение,claude-haiku-4.5,fresh-7,fresh,True,5,4,0.02678600000000042,24.5,Deniz Göktaş,Deniz Göktaş
+поиск + чтение,claude-haiku-4.5,fresh-8,fresh,True,4,3,0.02055899999999955,10.7,"Pavel Durov, the founder of Telegram, was charged by the FSB",Pavel Durov
+поиск + чтение,claude-haiku-4.5,fresh-9,fresh,True,4,3,0.020396000000000747,11.4,New Delhi,New Delhi
+поиск + чтение,claude-haiku-4.5,fresh-10,fresh,True,5,4,0.025736999999999455,13.5,12 people were killed in the February 18 explosion at a fire,Twelve
+поиск + чтение,claude-haiku-4.5,fresh-11,fresh,True,5,4,0.025280000000000413,15.4,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+поиск + чтение,claude-haiku-4.5,fresh-12,fresh,True,4,3,0.021123000000000225,13.1,"700,000","700,000"
+поиск + чтение,claude-haiku-4.5,fresh-13,fresh,True,5,6,0.032587000000000366,20.9,The highest recorded temperature in Germany during the 2026 ,41.5 °C
+поиск + чтение,claude-haiku-4.5,fresh-14,fresh,True,5,5,0.027061000000000668,22.5,Ciudad Rodrigo,Ciudad Rodrigo
+поиск + чтение,claude-haiku-4.5,fresh-15,fresh,True,4,3,0.020298999999999623,14.0,Oleksandr Syrskyi was dismissed as Commander-in-Chief of the,Oleksandr Syrskyi
+поиск + чтение,claude-haiku-4.5,fresh-16,fresh,True,5,4,0.026778999999999442,19.8,Montreal Victoire,Montreal Victoire
+поиск + чтение,claude-haiku-4.5,fresh-17,fresh,True,5,4,0.025566999999999673,15.6,EOS-05 (GISAT-1A),EOS-05
+поиск + чтение,claude-haiku-4.5,fresh-18,fresh,True,3,3,0.01639000000000035,15.2,13 July 2026,13 July
+поиск + чтение,claude-haiku-4.5,fresh-19,fresh,True,5,4,0.026667999999999026,14.6,"Disney Branded Television rebranded itself as ""Disney Kids &",Disney Kids & Family
+поиск + чтение,claude-haiku-4.5,fresh-20,fresh,True,4,3,0.020223000000000546,12.1,The knockout stage of the 2026 FIFA World Cup used a single-,single-elimination
+поиск + чтение,claude-haiku-4.5,fresh-21,fresh,True,6,6,0.034641000000001476,22.4,Gavin Snider,Gavin Snider
+поиск + чтение,claude-haiku-4.5,fresh-22,fresh,True,4,4,0.02086899999999936,15.2,Clara and the Below,Clara and the Below
+поиск + чтение,claude-haiku-4.5,fresh-23,fresh,True,3,3,0.01606599999999947,10.2,"German Galushchenko, the former energy minister of Ukraine, ",German Galushchenko
+поиск + чтение,claude-haiku-4.5,fresh-24,fresh,True,4,6,0.02459399999999956,16.9,A drought is declared across the whole of Wales in July 2026,a drought
+поиск + чтение,claude-haiku-4.5,fresh-25,fresh,False,9,7,0.05475999999999903,33.3,"Пакистан объявил об ""открытой войне"" с Афганистаном","""open war"""
+поиск + чтение,claude-haiku-4.5,fresh-26,fresh,True,3,2,0.0143759999999995,7.4,9,nine
+поиск + чтение,claude-haiku-4.5,fresh-27,fresh,True,4,4,0.021895999999999916,13.7,Markus Hinterhäuser,Markus Hinterhäuser
+поиск + чтение,claude-haiku-4.5,fresh-28,fresh,False,2,1,0.009734000000000798,5.6,6,nine
+поиск + чтение,claude-haiku-4.5,fresh-29,fresh,False,2,1,0.009362000000000315,5.0,46,43
+поиск + чтение,claude-haiku-4.5,fresh-30,fresh,True,4,3,0.020032000000000494,11.7,Ankara,Ankara
+поиск + чтение,claude-haiku-4.5,fresh-31,fresh,False,4,3,0.02137200000000039,11.5,Oljas Bektenov formed the new government of Kazakhstan after,Aibek Dädebai
+поиск + чтение,claude-haiku-4.5,fresh-32,fresh,False,7,6,0.03858800000000073,21.8,Justene Williams,Richard Lewer
+поиск + чтение,claude-haiku-4.5,fresh-33,fresh,False,9,7,0.049062999999998524,33.6,"Прошу прощения. На основе информации, которую я смог получит",Marilyn Gladu
+поиск + чтение,claude-haiku-4.5,fresh-34,fresh,True,3,2,0.014754999999999185,7.3,The earthquake that hit Haixi prefecture of Qinghai in June ,6.3
+поиск + чтение,claude-haiku-4.5,fresh-35,fresh,False,9,7,0.052038999999999724,34.4,Unable to confirm from available sources,Dina Levačić
+поиск + чтение,claude-haiku-4.5,fresh-36,fresh,False,2,1,0.009477999999999653,6.6,142 people were killed in the earthquake that struck off the,129
+поиск + чтение,claude-haiku-4.5,fresh-37,fresh,False,4,3,0.01994499999999988,9.8,27 May 2026,15 June
+поиск + чтение,claude-haiku-4.5,fresh-38,fresh,True,2,1,0.009680000000000355,6.1,Chief Minister of Kerala,Chief Minister
+поиск + чтение,claude-haiku-4.5,fresh-39,fresh,False,3,2,0.01609700000000025,11.8,"Adamuz, in the province of Córdoba, Spain (note: the collisi",Gelida

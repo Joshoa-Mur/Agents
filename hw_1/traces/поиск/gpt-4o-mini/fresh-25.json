@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On February 26, 2026, the government of Pakistan declared an \"open war\" against Afghanistan, which included launching airstrikes and initiated what was referred to as Operation Ghazab lil-Haq following escalating tensions and hostilities between the two nations. \n\nFINAL: \"open war\" against Afghanistan",
+ "correct": true,
+ "cost": 0.00035205000000004816,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Сегодня 2 ноября 2026 года. События 2025 и 2026 годов уже произошли, информация о них есть в Википедии: не отказывайся отвечать, а ищи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Если вступление статьи не содержит ответа, читай статью через page_find; факты о событиях часто лежат в обзорных статьях вроде '2026 in Ukraine' или в таблицах страницы турнира. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса; имена и названия пиши в именительном падеже, как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sxmmOrQSk51ef3LVgEhdKN22",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Afghanistan–Pakistan war February 26 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sxmmOrQSk51ef3LVgEhdKN22",
+   "content": "[2026 Afghanistan–Pakistan war] Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq. The war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan. | другие статьи: 2026, 2026 in Pakistan"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3OUUShqzqMTcRs9TS9gPoE7A",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Pakistan government declaration February 26 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3OUUShqzqMTcRs9TS9gPoE7A",
+   "content": "[2026] 2026 (MMXXVI) is the current year, and is a common year starting on Thursday of the Gregorian calendar, the 2026th year of the Common Era (CE) and Anno Domini (AD) designations, the 26th year of the 3rd millennium and the 21st century, and the 7th year of the 2020s decade. The early part of the year saw escalating armed conflicts in the Americas and Middle East. In January, the United States launched a military operation in Venezuela that captured sitting President Nicolás Maduro, leading to a blockade of Venezuelan oil exports that contributed to a crisis in Cuba. In Syria, an offensive by the Syrian government led to the Syrian Democratic Forces eventually being integrated into the Syrian Army, ending the Rojava Revolution, while in Yemen, a counteroffensive by the Yemeni government led to the collapse of the Southern Transitional Council, followed by Houthi offensives, including attacks on airports in Saudi Arabia. In February, Pakistan launched airstrikes against Afghanistan, leading to an open war between both nations. In Iran, in response to authorities cracking down on protests, the United States and Israel began a war in late February with the assassination of Supreme Leader Ali Khamenei, which resulted in widespread economic grief, fuel shortages and retaliatory strikes on Gulf nations, as well as the closure of the Strait of Hormuz and a naval blockade. There were also escalations of the Ethiopian civil conflict. The continued release of the Epstein files that began | другие статьи: 2026 in the United States, Flag of Pakistan"
+  },
+  {
+   "role": "assistant",
+   "content": "On February 26, 2026, the government of Pakistan declared an \"open war\" against Afghanistan, which included launching airstrikes and initiated what was referred to as Operation Ghazab lil-Haq following escalating tensions and hostilities between the two nations. \n\nFINAL: \"open war\" against Afghanistan",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

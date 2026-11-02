@@ -1,0 +1,18 @@
+[project]
+name = "ai-agents-hw1"
+version = "0.1.0"
+description = "Homework 1 notebook for AI Agents course"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "jupyter>=1.0",
+    "ipykernel>=6.29",
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

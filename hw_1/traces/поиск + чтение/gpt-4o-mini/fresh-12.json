@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+  "answer": "700,000",
+  "evidence": "The number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "As of January 2026, approximately 700,000 children in the United Kingdom are receiving support for special educational needs and disabilities. This represents a 12% increase from January 2025. \n\nFINAL: 700000",
+ "correct": true,
+ "cost": 0.0008512500000001921,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Сегодня 2 ноября 2026 года. События 2025 и 2026 годов уже произошли, информация о них есть в Википедии: не отказывайся отвечать, а ищи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Если вступление статьи не содержит ответа, читай статью через page_find; факты о событиях часто лежат в обзорных статьях вроде '2026 in Ukraine' или в таблицах страницы турнира. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса; имена и названия пиши в именительном падеже, как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VNfsRN8n0zisjsz5ftbH4WDZ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"number of children receiving support for special educational needs and disabilities in the United Kingdom January 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VNfsRN8n0zisjsz5ftbH4WDZ",
+   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were given only access to typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number of  | другие статьи: Special education in the United Kingdom, 2026 in the United Kingdom"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_YejXk2Qd9rE3CH7dldLMvH1q",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Special education in the United Kingdom\",\"keywords\":[\"number\",\"children\",\"support\",\"special educational needs\",\"disabilities\",\"2026\"],\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_YejXk2Qd9rE3CH7dldLMvH1q",
+   "content": "[Special education in the United Kingdom] найдено строк: 6\nSpecial education in the United Kingdom, as an aspect of education, is a devolved matter, with each of the countries of the United Kingdom having separate systems under separate governments. The UK Government is responsible for England, whilst the Scottish Government, the Welsh Government and the Northern Ireland Executive are responsible for Scotland, Wales and Northern Ireland, respectively.\nSpecial education in Scotland is formally known as Additional Support Needs (ASN) or Additional Support for Learning (ASL) whereas in England it is usually referred to as 'Special educational needs' ('SEN'), or 'special educational needs and disabilities' ('SEND').\nMeaning\nThe meaning of SEN is set out in the Education Act 1996 and was amended in the Special Educational Needs and Disability Bill of 2001.\n…\nLocal offer\nA Local Offer (or LO) is a statement detailing the pattern of support which a local authority expects to be available for children and young people with special educational needs (SEN) and/or disabilities within their area.\nIt must include information about education, health and care provision.\nIt should also tell families about training, employment and independent living options available for young people with special educational needs and/or disabilities.\n…\nScotland\nIn Scotland, the term additional support needs is used instead of SEN. As well as children with disabilities, this also encompasses children who may need support for reasons other than disability, such as children who are being bullied or who are in foster care.\nThe Education (Additional Support for Learning) (Scotland) Act 2004 redefined the law relating to the provision of special education to children with additional needs by establishing a framework for the policies of inclusion and generally practicing the \"presumption of mainstreaming\" i"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZTa66uR6udK0Hlb0O9OepcjF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"number of children receiving special educational needs support in the UK 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZTa66uR6udK0Hlb0O9OepcjF",
+   "content": "[Special education in the United Kingdom] Special education in the United Kingdom, as an aspect of education, is a devolved matter, with each of the countries of the United Kingdom having separate systems under separate governments. The UK Government is responsible for England, whilst the Scottish Government, the Welsh Government and the Northern Ireland Executive are responsible for Scotland, Wales and Northern Ireland, respectively. Special education in Scotland is formally known as Additional Support Needs (ASN) or Additional Support for Learning (ASL) whereas in England it is usually referred to as 'Special educational needs' ('SEN'), or 'special educational needs and disabilities' ('SEND'). | другие статьи: Special education, Reform UK"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vM2agwcYKagh9B5HKnoMNcVl",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in the United Kingdom\",\"keywords\":[\"children\",\"special educational needs\",\"support\"],\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vM2agwcYKagh9B5HKnoMNcVl",
+   "content": "[2026 in the United Kingdom] найдено строк: 2\nLord Mandelson is arrested on suspicion of misconduct in public office, following an investigation over allegations he shared market-sensitive government information with Jeffrey Epstein while a government minister.\nThe UK government announces an overhaul of provisions for children with special educational needs and disabilities in England, with education, health and care plans restricted to children with the most complex special educational needs from 2035.\n24 February\nParliament backs a motion proposed by the Liberal Democrats to release documents relating to the appointment of Andrew Mountbatten-Windsor as a trade envoy.\n…\nMayor of London Sadiq Khan announces Heat Ready London, the first ever plan to mitigate the impact of rising temperatures in the capital, and suggests that its policy proposals could be applied to other cities around the UK.\nThe number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help.\nCharles III becomes the first British monarch to reveal how much tax he pays, disclosing that he paid £12.9 million in 2024–25, £11.7 million in 2023–24, and more than £30 million since acceding to the throne. The disclosure is described as a step towards greater transparency, although no full breakdown of the tax calculation or the King's private income is provided.\n26 June"
+  },
+  {
+   "role": "assistant",
+   "content": "As of January 2026, approximately 700,000 children in the United Kingdom are receiving support for special educational needs and disabilities. This represents a 12% increase from January 2025. \n\nFINAL: 700000",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

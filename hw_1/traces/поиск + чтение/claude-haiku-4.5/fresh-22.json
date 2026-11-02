@@ -1,0 +1,112 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information.\n\nFINAL: Clara and the Below",
+ "correct": true,
+ "cost": 0.02086899999999936,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Сегодня 2 ноября 2026 года. События 2025 и 2026 годов уже произошли, информация о них есть в Википедии: не отказывайся отвечать, а ищи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Если вступление статьи не содержит ответа, читай статью через page_find; факты о событиях часто лежат в обзорных статьях вроде '2026 in Ukraine' или в таблицах страницы турнира. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса; имена и названия пиши в именительном падеже, как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about an indie animated series created by Matt Braly that was fully funded on March 17, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014r8zPuijfxWSyQ16DD3Xmd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly animated series funded March 17 2026\", \"lang\": \"en\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01TXeHgyezYRxyqxQ6jGE5Zu",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly indie animated series 2026\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014r8zPuijfxWSyQ16DD3Xmd",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. | другие статьи: 2026 in animation, LGBTQ themes in Western animation"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TXeHgyezYRxyqxQ6jGE5Zu",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. | другие статьи: 2026 in animation, Amphibia (TV series)"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more specific information about 2026 in animation to find details about his indie project.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_016n1bzpfwEQKVPwUmu48tb9",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 in animation\", \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_016n1bzpfwEQKVPwUmu48tb9",
+   "content": "[2026 in animation] 2026 in animation is an overview of notable events, including notable awards, list of films released, television show debuts and endings, and notable deaths. | другие статьи: 2026 Annecy International Animation Film Festival, List of animated television series of 2026"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me read the full article about 2026 in animation to find the specific information.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019qDZKxZRTifeNxfwydw4oS",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in animation\", \"keywords\": [\"Matt Braly\",\"funded\",\"March 17\"], \"lang\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019qDZKxZRTifeNxfwydw4oS",
+   "content": "[2026 in animation] найдено строк: 1\nEjae, Mark Sonnenblick, 24, Ido, and Teddy Park's Golden from KPop Demon Hunters wins the Academy Award for Best Original Song.\nMarch 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.\nMarch 18: Season 4 of Invincible premiered on Prime Video.\nMarch 19: Bugs Bunny was added as a skin to Fortnite."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information.\n\nFINAL: Clara and the Below",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "wc-1",
+  "source": "manual",
+  "question": "Сколько зрителей посетили финал чемпионата мира по футболу 2026 года на стадионе «Метлайф»?",
+  "answer": "80 663",
+  "evidence": "Испания \t1:0 (доп. вр.)\t Аргентина\nТоррес  106′\t(отчёт)\t\n«Метлайф», Ист-Ратерфорд\nЗрителей: 80 663\nСудья:  Славко Винчич",
+  "page": "Чемпионат мира по футболу 2026",
+  "url": "https://ru.wikipedia.org/wiki/Чемпионат_мира_по_футболу_2026",
+  "sonnet_answer": null,
+  "agent_ok": null
+ },
+ "answer": "На финале чемпионата мира по футболу 2026 года на стадионе «Метлайф» присутствовало 80,663 зрителей. \n\nFINAL: 80663",
+ "correct": false,
+ "cost": 0.001142699999999941,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Сегодня 2 ноября 2026 года. События 2025 и 2026 годов уже произошли, информация о них есть в Википедии: не отказывайся отвечать, а ищи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Если вступление статьи не содержит ответа, читай статью через page_find; факты о событиях часто лежат в обзорных статьях вроде '2026 in Ukraine' или в таблицах страницы турнира. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса; имена и названия пиши в именительном падеже, как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "Сколько зрителей посетили финал чемпионата мира по футболу 2026 года на стадионе «Метлайф»?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_poF0bzgQ1ut9wIahPZZZTpGv",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 FIFA World Cup final attendance MetLife Stadium\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_poF0bzgQ1ut9wIahPZZZTpGv",
+   "content": "[2026 FIFA World Cup knockout stage] The knockout stage of the 2026 FIFA World Cup was the second and final stage of the competition, following the group stage. Played from June 28 to July 19, 2026, the knockout stage ended with the final, held at MetLife Stadium in East Rutherford, New Jersey. The top two teams from each of the twelve groups, along with the best eight third-place teams, advanced to the knockout stage to compete in a single-elimination tournament. There were 32 matches in the knockout stage, including a match for third place. | другие статьи: 2026 FIFA World Cup Group I, MetLife Stadium"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QjNVDRTEWfIIGxh1G4dLYs26",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"MetLife Stadium\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QjNVDRTEWfIIGxh1G4dLYs26",
+   "content": "[MetLife Stadium] MetLife Stadium is a multi-purpose stadium located at the Meadowlands Sports Complex in East Rutherford, New Jersey, five miles (8 km) west of New York City. Opened in 2010, it replaced Giants Stadium and serves as the home for the New York Giants and New York Jets of the National Football League (NFL). At an approximate cost of $1.6 billion, it was the most expensive stadium built in the U.S. at the time of its completion. It is the largest stadium in New Jersey and the New York metro area with a capacity of over 82,000, and is the largest venue in the NFL. MetLife hosted Super Bowl XLVIII in February 2014. It also hosted nine matches during the 2025 FIFA Club World Cup, including the final, and hosted eight matches during the 2026 FIFA World Cup, including its final. During the 2026 FIFA World Cup, the stadium was temporarily renamed New York New Jersey Stadium. MetLife Stadium is one of two stadiums shared by two NFL teams; the other is SoFi Stadium in Inglewood, California, home to the Los Angeles Rams and Los Angeles Chargers. Additionally, MetLife Stadium is the fifth building in the New York metropolitan area to be home to multiple teams from the same sports league, after the Polo Grounds, which was home to the baseball Giants and Yankees from 1913 to 1922; the third Madison Square Garden, which hosted the NHL's Rangers and Americans from 1926 to 1942; Shea Stadium, which housed both the Mets and Yankees during the 1974 and 1975 seasons and both the Jets and Giants in  | другие статьи: MetLife, 2026 FIFA World Cup final"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_BFV9bV45xip6ImMqrLyPd09i",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 FIFA World Cup final attendance\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_BFV9bV45xip6ImMqrLyPd09i",
+   "content": "[2026 FIFA World Cup knockout stage] The knockout stage of the 2026 FIFA World Cup was the second and final stage of the competition, following the group stage. Played from June 28 to July 19, 2026, the knockout stage ended with the final, held at MetLife Stadium in East Rutherford, New Jersey. The top two teams from each of the twelve groups, along with the best eight third-place teams, advanced to the knockout stage to compete in a single-elimination tournament. There were 32 matches in the knockout stage, including a match for third place. | другие статьи: 2026 FIFA World Cup Group J, 2026 FIFA World Cup Group E"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4FU7MBJh0FUPZiPimey9RsCD",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 FIFA World Cup final MetLife Stadium attendance\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4FU7MBJh0FUPZiPimey9RsCD",
+   "content": "[2026 FIFA World Cup knockout stage] The knockout stage of the 2026 FIFA World Cup was the second and final stage of the competition, following the group stage. Played from June 28 to July 19, 2026, the knockout stage ended with the final, held at MetLife Stadium in East Rutherford, New Jersey. The top two teams from each of the twelve groups, along with the best eight third-place teams, advanced to the knockout stage to compete in a single-elimination tournament. There were 32 matches in the knockout stage, including a match for third place. | другие статьи: 2026 FIFA World Cup Group I, 2026 FIFA World Cup Group L"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oXvNS6rfsOcliIgU0cxy8GoF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"attendance 2026 FIFA World Cup final MetLife Stadium\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oXvNS6rfsOcliIgU0cxy8GoF",
+   "content": "[2026 FIFA World Cup knockout stage] The knockout stage of the 2026 FIFA World Cup was the second and final stage of the competition, following the group stage. Played from June 28 to July 19, 2026, the knockout stage ended with the final, held at MetLife Stadium in East Rutherford, New Jersey. The top two teams from each of the twelve groups, along with the best eight third-place teams, advanced to the knockout stage to compete in a single-elimination tournament. There were 32 matches in the knockout stage, including a match for third place. | другие статьи: 2026 FIFA World Cup Group I, MetLife Stadium"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fRxmn8U4uB0b8OpayOiTQMU0",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 FIFA World Cup final MetLife Stadium crowd\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fRxmn8U4uB0b8OpayOiTQMU0",
+   "content": "[MetLife Stadium] MetLife Stadium is a multi-purpose stadium located at the Meadowlands Sports Complex in East Rutherford, New Jersey, five miles (8 km) west of New York City. Opened in 2010, it replaced Giants Stadium and serves as the home for the New York Giants and New York Jets of the National Football League (NFL). At an approximate cost of $1.6 billion, it was the most expensive stadium built in the U.S. at the time of its completion. It is the largest stadium in New Jersey and the New York metro area with a capacity of over 82,000, and is the largest venue in the NFL. MetLife hosted Super Bowl XLVIII in February 2014. It also hosted nine matches during the 2025 FIFA Club World Cup, including the final, and hosted eight matches during the 2026 FIFA World Cup, including its final. During the 2026 FIFA World Cup, the stadium was temporarily renamed New York New Jersey Stadium. MetLife Stadium is one of two stadiums shared by two NFL teams; the other is SoFi Stadium in Inglewood, California, home to the Los Angeles Rams and Los Angeles Chargers. Additionally, MetLife Stadium is the fifth building in the New York metropolitan area to be home to multiple teams from the same sports league, after the Polo Grounds, which was home to the baseball Giants and Yankees from 1913 to 1922; the third Madison Square Garden, which hosted the NHL's Rangers and Americans from 1926 to 1942; Shea Stadium, which housed both the Mets and Yankees during the 1974 and 1975 seasons and both the Jets and Giants in  | другие статьи: 2026 FIFA World Cup final, 2026 FIFA World Cup"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CoBFujvc52eqWfSVPU34Qajy",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 FIFA World Cup final crowd size\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CoBFujvc52eqWfSVPU34Qajy",
+   "content": "[2026 FIFA World Cup final] The final match of the 2026 FIFA World Cup—the 23rd edition of the FIFA competition for men's national soccer teams—was played at MetLife Stadium in East Rutherford, New Jersey, part of the New York metropolitan area, on July 19, 2026. It was contested by Spain and the defending champion Argentina. The tournament was contested by hosts Canada, Mexico, and the United States, along with 45 other teams who emerged from the qualification phase, which was organized by the six FIFA confederations. The 48 teams competed in a group stage, from which 32 teams qualified for the knockout stage. En route to the final, Spain finished first in Group H with two wins and a draw, before defeating Austria in the round of 32, Portugal in the round of 16, Belgium in the quarterfinal, and France in the semifinal. Argentina finished first in Group J with three wins, after which it defeated Cape Verde in the round of 32, Egypt in the round of 16, Switzerland in the quarterfinal, and England in the semifinal. The final took place in front of 80,663 spectators, and was refereed by Slavko Vinčić of Slovenia. Spain dominated possession and created numerous goal-scoring opportunities throughout the match, with Argentina goalkeeper Emiliano Martínez repeatedly denying its offensive efforts. Argentina, reduced to ten players after Enzo Fernández was sent off in the second half, failed to register a single shot in regulation time, a first for a World Cup final. The goalless deadlock carried into extra time | другие статьи: List of 2026 FIFA World Cup controversies, 2022 FIFA World Cup"
+  },
+  {
+   "role": "assistant",
+   "content": "На финале чемпионата мира по футболу 2026 года на стадионе «Метлайф» присутствовало 80,663 зрителей. \n\nFINAL: 80663",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

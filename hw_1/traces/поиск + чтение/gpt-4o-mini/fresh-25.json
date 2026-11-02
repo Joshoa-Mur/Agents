@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On February 26, 2026, the government of Pakistan, represented by Defence Minister Khawaja Asif, declared an \"open war\" against Afghanistan, initiated in response to the Taliban's actions, and this conflict was codenamed Operation Ghazab lil-Haq. FINAL: \"open war\" declared",
+ "correct": true,
+ "cost": 0.0006455999999994688,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Сегодня 2 ноября 2026 года. События 2025 и 2026 годов уже произошли, информация о них есть в Википедии: не отказывайся отвечать, а ищи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Если вступление статьи не содержит ответа, читай статью через page_find; факты о событиях часто лежат в обзорных статьях вроде '2026 in Ukraine' или в таблицах страницы турнира. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза на языке вопроса; имена и названия пиши в именительном падеже, как в источнике."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_d2tvj0om7P0U5dgo4ny9pAmh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Afghanistan–Pakistan war February 26 2026\",\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_d2tvj0om7P0U5dgo4ny9pAmh",
+   "content": "[2026 Afghanistan–Pakistan war] Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq. The war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan. | другие статьи: 2026 in Pakistan, 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xyArSwSIbChd3Y7R2zSuIZcB",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Afghanistan–Pakistan war\",\"keywords\":[\"Pakistan\",\"February 26\",\"declaration\"],\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xyArSwSIbChd3Y7R2zSuIZcB",
+   "content": "[2026 Afghanistan–Pakistan war] найдено строк: 419 (строк с половиной ключевых слов нет, показаны строки с 1 из 3)\n2026 Afghanistan–Pakistan war\nPart of the Afghanistan–Pakistan conflict, the Insurgency in Khyber Pakhtunkhwa, and the Insurgency in Balochistan\nLocation of Afghanistan (orange) and Pakistan (green)\nDate | 21 February 2026 – present\n(8 months, 1 week and 4 days)\n…\nAfghanistan\nPakistan\nStatus\nOngoing\nBelligerents\nPakistan\nAfghanistan\nPakistani Taliban\nIttehad-ul-Mujahideen Pakistan\nal-Qaeda (claimed)\nJamaat-ul-Ahrar\n…\nUnits involved\nPakistan Armed Forces\nPakistan Army\nXI Corps"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VQxyUUDXAe39hDafoK22DLid",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Afghanistan–Pakistan war\",\"keywords\":[\"Khawaja Asif\",\"February 26\",\"open war\"],\"lang\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VQxyUUDXAe39hDafoK22DLid",
+   "content": "[2026 Afghanistan–Pakistan war] найдено строк: 3\nSince February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan.\nThe conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq.\nThe war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan.\nTwo ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan.\n…\nIn response to the Taliban's operation, Pakistan carried out air and ground strikes against Afghan Taliban positions in Kabul, Kandahar, Paktia, and Nangarhar.\nFaisal Karim Kundi, governor of Khyber Pakhtunkhwa, stated that the Afghan Taliban started the war and Pakistan will be the one to end it, while Khawaja Asif, Pakistan's defence minister, announced the start of an \"open war\" between the two countries.\nPakistani officials stated that around 133 Taliban fighters were killed and more than 200 were injured during the clashes and subsequent operation.\nThey further added that the airstrikes destroyed two corps headquarters, three brigade headquarters, two ammunition depots, one logistics base, three battalion headquarters, two sector headquarters, and more than 80 tanks, artillery pieces, and APCs (armoured personnel carriers).\n…\nAfghan United Front: Sami Sadat"
+  },
+  {
+   "role": "assistant",
+   "content": "On February 26, 2026, the government of Pakistan, represented by Defence Minister Khawaja Asif, declared an \"open war\" against Afghanistan, initiated in response to the Taliban's actions, and this conflict was codenamed Operation Ghazab lil-Haq. FINAL: \"open war\" declared",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
