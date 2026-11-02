@@ -66,6 +66,7 @@
 ## Запуск
 
 ```
+cd hw_1
 ./setup.sh                                  # окружение, .env, ядро, тесты
 # вписать ключ в .env
 .venv/bin/jupyter notebook ReAct_agent.ipynb   # Restart & Run All
