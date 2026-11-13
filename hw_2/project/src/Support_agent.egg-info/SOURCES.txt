@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/Support_agent.egg-info/PKG-INFO
+src/Support_agent.egg-info/SOURCES.txt
+src/Support_agent.egg-info/dependency_links.txt
+src/Support_agent.egg-info/requires.txt
+src/Support_agent.egg-info/top_level.txt
+src/project/__init__.py
+src/project/skills/skills.py
