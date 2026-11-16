@@ -1,0 +1,9 @@
+{
+  "cheap": "openai/gpt-4o-mini",
+  "strong": "anthropic/claude-sonnet-4.6",
+  "actual_spent_dollars": 0.22523923999999984,
+  "all_http_responses": 811,
+  "dataset_size": 42,
+  "workers": 6,
+  "critic_pairing": "Initial baseline answers and their call_ids reused, full initial cost charged in critic row."
+}

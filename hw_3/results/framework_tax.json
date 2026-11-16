@@ -1,0 +1,27 @@
+{
+  "question": "Сколько будет 2 + 2? Ответь только числом.",
+  "probes": [
+    {
+      "engine": "bare",
+      "prompt_tokens": 265,
+      "bytes": 1778,
+      "sha256": "2b018783cbf2af704fce11c2324ca18045d15aec09609a2e2a3a673ee0f74126",
+      "answer": "NOT_FOUND",
+      "call_ids": [
+        0
+      ]
+    },
+    {
+      "engine": "langgraph",
+      "prompt_tokens": 265,
+      "bytes": 1778,
+      "sha256": "2b018783cbf2af704fce11c2324ca18045d15aec09609a2e2a3a673ee0f74126",
+      "answer": "4",
+      "call_ids": [
+        1
+      ]
+    }
+  ],
+  "byte_identical": true,
+  "prompt_token_delta": 0
+}

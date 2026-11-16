@@ -1,0 +1,42 @@
+{
+  "engine": "langgraph",
+  "rule": "max accuracy, then min cents_per_correct",
+  "candidates": [
+    {
+      "config": "bare",
+      "label": "Голый цикл, mini",
+      "n": 42,
+      "correct": 31,
+      "accuracy": 0.7380952380952381,
+      "calls_per_question": 4.761904761904762,
+      "chat_calls_per_question": 2.9047619047619047,
+      "embedding_calls": 78,
+      "tokens_per_question": 2793.785714285714,
+      "prompt_per_question": 2683.9285714285716,
+      "completion_per_question": 109.85714285714286,
+      "cents_per_question": 0.042243142857142875,
+      "cents_per_correct": 0.05723264516129035,
+      "total_cost_dollars": 0.017742120000000007,
+      "errors": 0,
+      "limited": 0
+    },
+    {
+      "config": "langgraph",
+      "label": "LangGraph, mini",
+      "n": 42,
+      "correct": 32,
+      "accuracy": 0.7619047619047619,
+      "calls_per_question": 4.809523809523809,
+      "chat_calls_per_question": 2.9285714285714284,
+      "embedding_calls": 79,
+      "tokens_per_question": 2827.5476190476193,
+      "prompt_per_question": 2713.904761904762,
+      "completion_per_question": 113.64285714285714,
+      "cents_per_question": 0.04223359523809525,
+      "cents_per_correct": 0.055431593750000015,
+      "total_cost_dollars": 0.017738110000000005,
+      "errors": 0,
+      "limited": 0
+    }
+  ]
+}

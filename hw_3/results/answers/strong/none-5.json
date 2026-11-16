@@ -1,0 +1,17 @@
+{
+  "answer": "Единая горячая линия Роспотребнадзора: **8-800-555-49-43** (звонок бесплатный по России).\n\nFINAL: 8-800-555-49-43",
+  "hits": [],
+  "limited": false,
+  "config": "strong",
+  "id": "none-5",
+  "question": "Какой номер телефона у единой горячей линии Роспотребнадзора?",
+  "gold": "",
+  "answerable": false,
+  "correct": false,
+  "error": null,
+  "call_ids": [
+    800
+  ],
+  "reused_initial_call_ids": [],
+  "correct_before_audit": false
+}

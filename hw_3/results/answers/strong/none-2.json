@@ -1,0 +1,17 @@
+{
+  "answer": "Вопрос касается законодательства **Казахстана**, а не России. Я отвечаю только на вопросы о правах потребителей в России.\n\nNOT_FOUND\n\nFINAL: NOT_FOUND",
+  "hits": [],
+  "limited": false,
+  "config": "strong",
+  "id": "none-2",
+  "question": "Сколько дней даётся на возврат товара, купленного в интернет-магазине в Казахстане?",
+  "gold": "",
+  "answerable": false,
+  "correct": true,
+  "error": null,
+  "call_ids": [
+    796
+  ],
+  "reused_initial_call_ids": [],
+  "correct_before_audit": true
+}

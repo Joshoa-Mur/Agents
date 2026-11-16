@@ -1,0 +1,17 @@
+{
+  "answer": "Это не регулируется законодательством о правах потребителей в России — количество баллов кешбэка за отзыв устанавливается каждым маркетплейсом самостоятельно и не является нормой закона.\n\nFINAL: NOT_FOUND",
+  "hits": [],
+  "limited": false,
+  "config": "strong",
+  "id": "none-10",
+  "question": "Сколько баллов кешбэка начисляется покупателю за отзыв о товаре на маркетплейсе?",
+  "gold": "",
+  "answerable": false,
+  "correct": true,
+  "error": null,
+  "call_ids": [
+    805
+  ],
+  "reused_initial_call_ids": [],
+  "correct_before_audit": true
+}
